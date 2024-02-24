@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-container{
+    width: 400px;
+    height: 420px;
+    border-radius: 8px;
+    padding: 2rem 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#title{
+   color: blueviolet;
+   font-size: 35px;
+}
+.form-container form{
+    width: 100%;
+    padding:1rem 3rem;
+    margin-top: 2rem;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;   
+    margin-top: 10px;
+}
+.form-group input{
+    border: 1px solid grey;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+#submit-btn{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 10px;
+    cursor: pointer;
+}
+#submit-btn:hover{
+    background-color: rgb(156, 67, 240);
+}
+
+
+.message-container{
+    width: 400px;
+    padding: 1rem;
+    background-color: white;
+    text-align: center;
+}
+.message-containe span{
+    margin-top: 10px;
+}
+.descSuccess{
+  color: green;
+}
+.descWrong{
+    color: Red;
+}
